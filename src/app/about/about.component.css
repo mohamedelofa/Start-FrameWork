@@ -1,0 +1,28 @@
+.about{
+        height:100vh;
+        background-color: #1abc9c;
+        color:white;
+}
+.icon{
+    position:relative;
+}
+.icon::after{
+    content:"";
+    position:absolute;
+    width:8%;
+    height:3px;
+    background-color: white;
+    top:50%;
+    left:52%;
+    transform: translateY(-50%);
+}
+.icon::before{
+    content:"";
+    position:absolute;
+    width:8%;
+    height:3px;
+    background-color: white;
+    top:50%;
+    right:52%;
+    transform: translateY(-50%);
+}

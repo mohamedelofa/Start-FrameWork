@@ -1,0 +1,23 @@
+.main{
+    background-color:#2c3e50;
+    color:white;
+    padding:50px;
+}
+span{
+    padding:10px;
+}
+i{
+    width:20px;
+    height:20px;
+}
+h4{
+    margin-bottom:15px;
+}
+.sub{
+    background-color:#1a252f;
+    color:white;
+}
+.sub p{
+    margin:0px;
+    padding:20px;
+}

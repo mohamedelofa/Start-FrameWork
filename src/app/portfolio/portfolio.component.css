@@ -1,0 +1,48 @@
+.portfolio{
+    height:100vh;
+}
+.icon{
+position:relative;
+}
+.icon::after{
+    content:"";
+    position:absolute;
+    width:8%;
+    height:3px;
+    background-color: #212529;
+    top:50%;
+    left:52%;
+    transform: translateY(-50%);
+}
+.icon::before{
+    content:"";
+    position:absolute;
+    width:8%;
+    height:3px;
+    background-color: #212529;
+    top:50%;
+    right:52%;
+    transform: translateY(-50%);
+}
+
+.layer{
+    position:absolute;
+    background-color:#1abc9ce6;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    opacity:0;
+    transition: opacity .5s;
+}
+
+.main:hover .layer{
+    opacity:1;
+}
+.model{
+    z-index: 9999;
+    background-color:rgba(13,110,253,.25);
+}
+.model img{
+    width:600px;
+}

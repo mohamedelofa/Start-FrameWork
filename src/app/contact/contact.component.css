@@ -1,0 +1,30 @@
+.contact{
+    height:100vh;
+
+}
+.icon{
+    position:relative;
+    }
+    .icon::after{
+        content:"";
+        position:absolute;
+        width:8%;
+        height:3px;
+        background-color: #212529;
+        top:50%;
+        left:52%;
+        transform: translateY(-50%);
+    }
+    .icon::before{
+        content:"";
+        position:absolute;
+        width:8%;
+        height:3px;
+        background-color: #212529;
+        top:50%;
+        right:52%;
+        transform: translateY(-50%);
+    }
+    input:focus-visible{
+        outline: 0px;;
+    }

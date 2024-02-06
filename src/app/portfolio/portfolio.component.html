@@ -1,0 +1,61 @@
+<div class="portfolio d-flex align-items-center">
+    <div class="container text-center">
+        <h1>PORTFOLIO COMPONENT</h1>
+        <div class="icon my-3">
+            <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="row g-5">
+            <div class="col-md-4 ">
+                <div class="position-relative main" style="cursor:pointer;" (click)="show($event)">
+                    <img src="assets/images/poert1.png" class="w-100 rounded" alt="" >
+                    <div class="layer rounded d-flex justify-content-center align-items-center text-light">
+                        <i class="fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="position-relative main"  style="cursor:pointer;" (click)="show($event)">
+                    <img src="assets/images/port2.png" class="w-100 rounded" alt="">
+                    <div class="layer rounded d-flex justify-content-center align-items-center text-light">
+                        <i class="fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="position-relative main"  style="cursor:pointer;" (click)="show($event)">
+                    <img src="assets/images/port3.png" class="w-100 rounded" alt="">
+                    <div class="layer rounded d-flex justify-content-center align-items-center text-light">
+                        <i class="fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="position-relative main"  style="cursor:pointer;" (click)="show($event)">
+                    <img src="assets/images/poert1.png" class="w-100 rounded" alt="">
+                    <div class="layer rounded d-flex justify-content-center align-items-center text-light">
+                        <i class="fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="position-relative main"  style="cursor:pointer;" (click)="show($event)">
+                    <img src="assets/images/port2.png" class="w-100 rounded" alt="">
+                    <div class="layer rounded d-flex justify-content-center align-items-center text-light">
+                        <i class="fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="position-relative main"  style="cursor:pointer;" (click)="show($event)">
+                    <img src="assets/images/port3.png" class="w-100 rounded" alt="">
+                    <div class="layer rounded d-flex justify-content-center align-items-center text-light">
+                        <i class="fa-solid fa-plus fa-6x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="d-none justify-content-center align-items-center text-light position-fixed top-0 bottom-0 start-0 end-0 model" (click)="hide($event)">
+    <img [src]="src" class="" alt="" (click)="prevent($event)">
+</div>
